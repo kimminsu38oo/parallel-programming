@@ -1,3 +1,7 @@
+# parallel Matrix multiplication operation using multi-thread  
+# Each thread is responsible for a column of matrix B
+
+
 import numpy as np
 from threading import Thread
 from concurrent.futures import ThreadPoolExecutor
